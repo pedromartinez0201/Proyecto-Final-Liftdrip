@@ -129,10 +129,29 @@
     height: 30px;
     width: auto;
 }
+.carousel-web{
+  display: none;
+}
+
+@media(min-width:768px){
+  .carousel-mobile{
+    display: none;
+  }
+  .carousel-web{
+    display: block;
+  }
+}
+
 
 @media(min-width: 1024px){
-    
+  
+  /* Carrusel */
+  .carousel-mobile{
+    display: none;
+  }
+
 }
+
 /* ----------------------------MAIN--------------------
 
 
