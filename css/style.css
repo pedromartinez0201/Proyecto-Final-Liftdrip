@@ -1,0 +1,48 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.grilla {
+
+    display: grid;
+    
+    grid-template-areas:
+        "nav nav nav nav"
+        "header header header header"
+        "main main main aside"
+        "main main main aside"
+        "footer footer footer footer";
+        grid-template-rows:  20% 60% 60% 60% 80%;
+        height: 100vh;
+}
+
+.grilla nav {
+    grid-area: nav;
+    background-color: blue;
+    display: flex;
+}
+.grilla nav img{
+    filter: invert(100%);
+}
+
+.grilla header {
+    grid-area: header;
+    background-color: red;
+}
+
+.grilla main {
+    grid-area: main;
+    background-color: yellow;
+}
+
+.grilla footer {
+    grid-area: footer;
+    background-color: green;
+}
+
+.grilla  aside {
+    grid-area: aside;
+    background-color: rgb(185, 36, 223);
+}
