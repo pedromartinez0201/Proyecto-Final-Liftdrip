@@ -1,3 +1,4 @@
+/* Fuentes */
 @font-face{
     
     font-family: 'FuturaRegular';
@@ -140,6 +141,7 @@
   .carousel-web{
     display: block;
   }
+
 }
 
 
@@ -149,10 +151,28 @@
   .carousel-mobile{
     display: none;
   }
+  .carousel-web{
+    display: block;
+  }
+ 
 
 }
+.conteiner-fluid.articles{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
 
-/* ----------------------------MAIN--------------------
+.card {
+  display: inline-block;
+  
+  /* Agrega margen, padding, etc. según sea necesario */
+}
+/* --------------------MAIN--------------- */
+
+
+
+/* --------------------FOOTER--------------- */
 
 
 
