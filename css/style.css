@@ -88,6 +88,9 @@
     width: 100%;
     filter: invert(100%);
 }
+.logo-nav:hover{
+  scale: 1.1;
+}
 .nav-item{
     padding: 0 10px;
 }
@@ -317,34 +320,122 @@
 }
 /* ------------------------------------------- */
 /* Texto de marca  */
-.container-fluid{
+.container-lg{
   display: flex;  
-  justify-content: center;
-  align-items: first baseline;
+  
+  align-items: start;
   flex-direction: column;
   border-top: 1px solid black;
   padding-top: 20px;
+  max-width: 800px;
 }
-.container-fluid .text{
+.container-lg .text{
   font-family: 'FuturaRegular', sans-serif;
   font-size: 20px;
   width: 100%;
   opacity: 0.7;
   text-align: left;
 }
-.container-fluid h3{
+.container-lg h3{
   font-family: 'FuturaBold', sans-serif;
   font-size: 30px;
   text-align: left;
   margin: 0;
   padding: 0;
+  text-decoration: solid;
+  
+}
+.container-fluid.volver-inicio{
+  height: 150px;
+}
+.container-fluid a{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+.container-fluid a .flechita{
+  width: 50px;
+  height: 50px;
+  
+}
+.container-fluid a .flechita:hover{
+  transition: .5s;
+  transform: rotate(180deg);
+
+}
+.accordion-body strong{
+  font-family: 'FuturaRegular', sans-serif;
+  
+  color: black;
+
+}
+.accordion-body p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 5px;
 }
 
-
-
-
-/* --------------------FOOTER--------------- */
-
+/* -----------------------------------------------------------------------------FOOTER---------------------- */
+.container-fluid .redes{
+  display: flex;
+  justify-content: space-around;
+  border:  0 1px 0 0 solid black;
+}
+.redes{
+  padding-top: 30px;
+}
+.redes a i{
+  font-size: 60px;
+  
+}
+.redes .fa-brands.fa-square-facebook:hover{
+  color: rgb(118, 169, 228);
+  transition: .5s;
+}
+.redes .fa-brands.fa-square-instagram:hover{
+  color: rgb(236, 79, 40);
+  transition: .5s;
+}
+.redes .fa-brands.fa-square-x-twitter:hover{
+  color: rgb(140, 141, 141);
+  transition: .5s;
+}
+.container-fluid p{
+  font-family: 'FuturaRegular', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+  color: gray;
+}
+/* ---------------------------------------------------------------
+MERCADO PAGO PAYPAL TARJETAS ETC */
+.container-fluid .formas-pago{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+}
+.formas-pago img{
+  width: 200px;
+  opacity: 0.5;
+  
+}
+.info-extra{
+  font-size: 20px;
+  padding: 20px 0 ;
+  text-align: center;
+  
+}
+footer .container-fluid.footer .derechos{
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 
 
