@@ -99,6 +99,8 @@
 .nav-link{
     color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 0;
 }
 
 .navbar .container-fluid{
@@ -169,31 +171,36 @@
   /* Agrega margen, padding, etc. según sea necesario */
 }
 /* --------------------MAIN--------------- */
-.container-fluid {
+/* Secciones Hombre , mujer , chicos */
+/* ------------------------------------------------------------------------- */
+
+.shops{
+  display: flex;
+  justify-content: center;
+}
+.container {
   width: auto;
   height: auto;
   margin:5px;
   padding: 0px;
 }
-.container-fluid .row .col-12.col-md-6.col-lg-4{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  
-}
-.container-fluid .row .col-12.col-md-6.col-lg-4 a img{
-  width: 100%;
+
+.container .row .col-12.col-md-6.col-lg-4 a img{
+  width: 90%;
   height: auto;
   padding: 0px;
   
 }
 .col-12.col-md-6.col-lg-4{
-  padding: 5px 5px;
+  padding: 30px 5px;
 }
 .col-12.col-md-6.col-lg-4 a{
   text-decoration: none;
   color: black;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .col-12.col-md-6.col-lg-4 a img{
   border-radius: 30px;
@@ -205,17 +212,135 @@
   transform: scale(1.01);
 }
 .col-12.col-md-6.col-lg-4 h2{
-  font-family: 'FuturaBold', sans-serif;
-  font-size: 40px;
+  font-family: 'Roboto';
+  font-size: 20px;
   text-align: center;
   text-transform: uppercase;
+  padding-top: 10px;
+}
+/* ------------------------------------------------------------------ */
+/* Sobre nuestras Remeras--------------- */
+.sobre-remeras{
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* 
+------------------------------------------------------------------ */
+
+/* Scrolling-Wrapper de articulos */
+.scrolling-wrapper{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
  
 }
-.col-12.col-md-6.col-lg-4 h2:hover{
-  background-color: rgba(26, 25, 25, 0.685);
-  border-radius: 10px;
-  color: white;
+.scrolling-wrapper P{
+  font-family: 'Roboto',  monospace;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+  border: 0 2px 0px 0 solid black;
+
 }
+.modal-dialog{
+  display: block;
+}
+.item{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  padding: 0 40px;
+  margin-bottom: 30px;
+  
+}
+.item p{
+  text-align: center;
+  font-family: 'FuturaRegular', sans-serif;
+}
+.item .tachado{
+  text-decoration: line-through;
+  color: red;
+  font-size: 16px;
+  display: inline-block;
+}
+.item .precio{
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+}
+.item .over{
+  color: rgba(0, 0, 0, 0.801);
+  font-size: 15px;
+}
+.item button{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 30px;
+  border: none;
+ 
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: 'FuturaBold', sans-serif;
+}
+.item button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: .9s;
+}
+
+.item .img-1{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  filter: invert(100%);
+  
+}
+.img-2{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  
+}
+.img-3{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  filter: brightness(20%);
+}
+/* ------------------------------------------- */
+/* Texto de marca  */
+.container-fluid{
+  display: flex;  
+  justify-content: center;
+  align-items: first baseline;
+  flex-direction: column;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+.container-fluid .text{
+  font-family: 'FuturaRegular', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  opacity: 0.7;
+  text-align: left;
+}
+.container-fluid h3{
+  font-family: 'FuturaBold', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+
 
 
 /* --------------------FOOTER--------------- */
