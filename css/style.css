@@ -83,13 +83,16 @@
 
 
 /* --------------------NAV--------------------- */
+
 .container-fluid .logo-nav{
     height: 80px;
     width: 100%;
     filter: invert(100%);
 }
+
 .logo-nav:hover{
   scale: 1.1;
+  transition: .9s;
 }
 .nav-item{
     padding: 0 10px;
@@ -139,29 +142,7 @@
   display: none;
 }
 
-@media(min-width:768px){
-  .carrousel-mobile{
-    display: none;
-  }
-  .carousel-web{
-    display: block;
-  }
 
-}
-
-
-@media(min-width: 1024px){
-  
-  /* Carrusel */
-  .carrousel-mobile{
-    display: none;
-  }
-  .carousel-web{
-    display: block;
-  }
- 
-
-}
 .conteiner-fluid.articles{
   overflow-x: scroll;
   overflow-y: hidden;
@@ -196,6 +177,7 @@
 }
 .col-12.col-md-6.col-lg-4{
   padding: 30px 5px;
+  height: 100%;
 }
 .col-12.col-md-6.col-lg-4 a{
   text-decoration: none;
@@ -286,7 +268,7 @@
 .item button{
   background-color: rgb(0, 0, 0);
   color: white;
-  border-radius: 30px;
+  border-radius: 10px;
   border: none;
  
   padding: 10px 20px;
@@ -437,6 +419,96 @@ footer .container-fluid.footer .derechos{
   font-family: 'Courier New', Courier, monospace;
 }
 
+/* -----------------------------CONTACTO--------------------------------- */
+ .contact{
+  background-image: url(../images-videos/Fotos/Proceso\ de\ creación.jpg);
+  height: 900px;
+  background-size: cover;
+  font-family: 'Roboto',sans-serif;
+} 
+.input-group{
+  padding: 20px 0 ;
+}
+.container-sm.contacto label{
+  color: white;
+}
+.offcanvas-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offcanvas-header .logo-donde-encontrarnos{
+  object-fit: cover;
+  width: 200px;
+  
+}
+
+
+.offcanvas-body iframe{
+  padding-top: 20px;
+  
+}
+
+.offcanvas-body p{
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto',sans-serif;
+  font-size: 20px;
+  
+}
+.container-fluid.contenido{
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-kilos-crew{
+  padding-bottom: 100px;
+  width: 400px;
+  filter: invert(100%);
+
+}
+/* --------------------------LOGIN------------------------------- */
+
+.bg{
+  background-image: url(https://cdn.develop.gymshark.com/auth-img.jpg);
+  background-position: center center;
+  background-size: cover;
+  
+}
+.col-12{
+  height: 800px;
+}
+
+.texto-boton{
+  font-size: 40px;
+}
+.logo-log{
+  height: 50px;
+}
 
 
 
+
+@media(min-width:768px){
+  .carrousel-mobile{
+    display: none;
+  }
+  .carousel-web{
+    display: block;
+  }
+  .bg{
+    display: block;
+  }
+}
+
+
+@media(min-width: 1024px){
+  /* Carrusel */
+  .carrousel-mobile{
+    display: none;
+  }
+  .carousel-web{
+    display: block;
+  }
+}
