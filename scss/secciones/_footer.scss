@@ -1,0 +1,59 @@
+.container-fluid .redes{
+    display: flex;
+    justify-content: space-around;
+    border:  0 1px 0 0 solid black;
+  }
+  .redes{
+    padding-top: 30px;
+  }
+  .redes a i{
+    font-size: 60px;
+    
+  }
+  .redes .fa-brands.fa-square-facebook:hover{
+    color: rgb(118, 169, 228);
+    transition: .5s;
+  }
+  .redes .fa-brands.fa-square-instagram:hover{
+    color: rgb(236, 79, 40);
+    transition: .5s;
+  }
+  .redes .fa-brands.fa-square-x-twitter:hover{
+    color: rgb(140, 141, 141);
+    transition: .5s;
+  }
+  .container-fluid p{
+    font-family: 'FuturaRegular', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+    color: gray;
+  }
+  /* ---------------------------------------------------------------
+  MERCADO PAGO PAYPAL TARJETAS ETC */
+  .container-fluid .formas-pago{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .formas-pago img{
+    width: 200px;
+    opacity: 0.5;
+    
+  }
+  .info-extra{
+    font-size: 20px;
+    padding: 20px 0 ;
+    text-align: center;
+    
+  }
+  footer .container-fluid.footer .derechos{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  

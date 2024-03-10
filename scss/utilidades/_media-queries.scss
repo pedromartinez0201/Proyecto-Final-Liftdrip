@@ -1,0 +1,22 @@
+@media(min-width:768px){
+    .carrousel-mobile{
+      display: none;
+    }
+    .carousel-web{
+      display: block;
+    }
+    .bg{
+      display: block;
+    }
+  }
+  
+  
+  @media(min-width: 1024px){
+    /* Carrusel */
+    .carrousel-mobile{
+      display: none;
+    }
+    .carousel-web{
+      display: block;
+    }
+  }

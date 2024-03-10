@@ -1,0 +1,48 @@
+.contact{
+    background-image: url("/images-videos/Fotos/Proceso\ de\ creación.jpg");
+    height: 900px;
+    background-size: cover;
+    font-family: 'Roboto',sans-serif;
+  } 
+  .input-group{
+    padding: 20px 0 ;
+  }
+  .container-sm.contacto label{
+    color: white;
+  }
+  .offcanvas-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .offcanvas-header .logo-donde-encontrarnos{
+    object-fit: cover;
+    width: 200px;
+    
+  }
+  
+  
+  .offcanvas-body iframe{
+    padding-top: 20px;
+    
+  }
+  
+  .offcanvas-body p{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    
+  }
+  .container-fluid.contenido{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-kilos-crew{
+    padding-bottom: 100px;
+    width: 400px;
+    filter: invert(100%);
+  
+  }

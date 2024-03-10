@@ -1,0 +1,70 @@
+.container-fluid .logo-nav{
+    height: 80px;
+    width: 100%;
+    filter: invert(100%);
+}
+
+.logo-nav:hover{
+  scale: 1.1;
+  transition: .9s;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.navbar-brand.login-icon img{
+    height: 30px;
+    
+}
+/* Color de etiquetas de nav  */
+.nav-link{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 0;
+}
+
+.navbar .container-fluid{
+    flex-wrap: inherit;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid.envio-gratis p{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family: 'FuturaBold';
+    font-size: 20px;
+    
+}
+
+/* Buscador nav  */
+.d-flex .form-control.me-2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+.d-flex button{
+   
+    
+    border: none;
+}
+.d-flex button img{
+    height: 30px;
+    width: auto;
+}
+.carousel-web{
+  display: none;
+}
+
+
+.conteiner-fluid.articles{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card {
+  display: inline-block;
+  
+  /* Agrega margen, padding, etc. según sea necesario */
+}

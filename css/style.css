@@ -1,514 +1,612 @@
-/* Fuentes */
-@font-face{
-    
-    font-family: 'FuturaRegular';
-    src: url('../Fonts/FuturaPTMedium.otf');
-}
-@font-face{
-    font-family: 'FuturaBold';
-    src: url('../Fonts/FuturaPTBold.otf');
-}
+@charset "UTF-8";
+@font-face {
+  font-family: 'FuturaRegular';
+  src: url("../Fonts/FuturaPTMedium.otf"); }
+
+@font-face {
+  font-family: 'FuturaBold';
+  src: url("../Fonts/FuturaPTBold.otf"); }
+
 .roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
 
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
-/* --------------------NAV--------------------- */
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal; }
 
-.container-fluid .logo-nav{
-    height: 80px;
-    width: 100%;
-    filter: invert(100%);
-}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal; }
 
-.logo-nav:hover{
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal; }
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal; }
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic; }
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic; }
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic; }
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic; }
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic; }
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@media (min-width: 768px) {
+  .carrousel-mobile {
+    display: none; }
+  .carousel-web {
+    display: block; }
+  .bg {
+    display: block; } }
+
+@media (min-width: 1024px) {
+  /* Carrusel */
+  .carrousel-mobile {
+    display: none; }
+  .carousel-web {
+    display: block; } }
+
+.container-fluid .logo-nav {
+  height: 80px;
+  width: 100%;
+  filter: invert(100%); }
+
+.logo-nav:hover {
   scale: 1.1;
-  transition: .9s;
-}
-.nav-item{
-    padding: 0 10px;
-}
-.navbar-brand.login-icon img{
-    height: 30px;
-    
-}
+  transition: .9s; }
+
+.nav-item {
+  padding: 0 10px; }
+
+.navbar-brand.login-icon img {
+  height: 30px; }
+
 /* Color de etiquetas de nav  */
-.nav-link{
-    color: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    padding: 0;
-}
+.nav-link {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  padding: 0; }
 
-.navbar .container-fluid{
-    flex-wrap: inherit;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-}
+.navbar .container-fluid {
+  flex-wrap: inherit;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center; }
 
-.container-fluid.envio-gratis p{
-    color: rgb(0, 0, 0);
-    margin: 0;
-    font-family: 'FuturaBold';
-    font-size: 20px;
-    
-}
+.container-fluid.envio-gratis p {
+  color: black;
+  margin: 0;
+  font-family: 'FuturaBold';
+  font-size: 20px; }
 
 /* Buscador nav  */
-.d-flex .form-control.me-2{
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
-}
-.d-flex button{
-   
-    
-    border: none;
-}
-.d-flex button img{
-    height: 30px;
-    width: auto;
-}
-.carousel-web{
-  display: none;
-}
+.d-flex .form-control.me-2 {
+  background-color: white;
+  border-radius: 30px; }
 
+.d-flex button {
+  border: none; }
 
-.conteiner-fluid.articles{
+.d-flex button img {
+  height: 30px;
+  width: auto; }
+
+.carousel-web {
+  display: none; }
+
+.conteiner-fluid.articles {
   overflow-x: scroll;
   overflow-y: hidden;
-  white-space: nowrap;
-}
+  white-space: nowrap; }
 
 .card {
   display: inline-block;
-  
-  /* Agrega margen, padding, etc. según sea necesario */
-}
-/* --------------------MAIN--------------- */
-/* Secciones Hombre , mujer , chicos */
-/* ------------------------------------------------------------------------- */
+  /* Agrega margen, padding, etc. según sea necesario */ }
 
-.shops{
+.container-fluid .redes {
   display: flex;
+  justify-content: space-around;
+  border: 0 1px 0 0 solid black; }
+
+.redes {
+  padding-top: 30px; }
+
+.redes a i {
+  font-size: 60px; }
+
+.redes .fa-brands.fa-square-facebook:hover {
+  color: #76a9e4;
+  transition: .5s; }
+
+.redes .fa-brands.fa-square-instagram:hover {
+  color: #ec4f28;
+  transition: .5s; }
+
+.redes .fa-brands.fa-square-x-twitter:hover {
+  color: #8c8d8d;
+  transition: .5s; }
+
+.container-fluid p {
+  font-family: 'FuturaRegular', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+  color: gray; }
+
+/* ---------------------------------------------------------------
+  MERCADO PAGO PAYPAL TARJETAS ETC */
+.container-fluid .formas-pago {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
   justify-content: center;
-}
+  padding-top: 40px; }
+
+.formas-pago img {
+  width: 200px;
+  opacity: 0.5; }
+
+.info-extra {
+  font-size: 20px;
+  padding: 20px 0;
+  text-align: center; }
+
+footer .container-fluid.footer .derechos {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace; }
+
+.shops {
+  display: flex;
+  justify-content: center; }
+
 .container {
   width: auto;
   height: auto;
-  margin:5px;
-  padding: 0px;
-}
+  margin: 5px;
+  padding: 0px; }
 
-.container .row .col-12.col-md-6.col-lg-4 a img{
+.container .row .col-12.col-md-6.col-lg-4 a img {
   width: 90%;
   height: auto;
-  padding: 0px;
-  
-}
-.col-12.col-md-6.col-lg-4{
+  padding: 0px; }
+
+.col-12.col-md-6.col-lg-4 {
   padding: 30px 5px;
-  height: 100%;
-}
-.col-12.col-md-6.col-lg-4 a{
+  height: 100%; }
+
+.col-12.col-md-6.col-lg-4 a {
   text-decoration: none;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-.col-12.col-md-6.col-lg-4 a img{
-  border-radius: 30px;
-  transition: .9s;
+  flex-direction: column; }
 
-}
-.col-12.col-md-6.col-lg-4 a:hover{
+.col-12.col-md-6.col-lg-4 a img {
+  border-radius: 30px;
+  transition: .9s; }
+
+.col-12.col-md-6.col-lg-4 a:hover {
   transition: .9s;
-  transform: scale(1.01);
-}
-.col-12.col-md-6.col-lg-4 h2{
+  transform: scale(1.01); }
+
+.col-12.col-md-6.col-lg-4 h2 {
   font-family: 'Roboto';
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 10px;
-}
+  padding-top: 10px; }
+
 /* ------------------------------------------------------------------ */
 /* Sobre nuestras Remeras--------------- */
-.sobre-remeras{
+.sobre-remeras {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 20px;
-  font-family: 'Roboto', sans-serif;
-}
-
-
+  font-family: 'Roboto', sans-serif; }
 
 /* 
------------------------------------------------------------------- */
-
+  ------------------------------------------------------------------ */
 /* Scrolling-Wrapper de articulos */
-.scrolling-wrapper{
+.scrolling-wrapper {
   overflow-x: scroll;
   overflow-y: hidden;
-  white-space: nowrap;
- 
-}
-.scrolling-wrapper P{
+  white-space: nowrap; }
+
+.scrolling-wrapper P {
   font-family: 'Roboto',  monospace;
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   margin: 20px 0;
-  border: 0 2px 0px 0 solid black;
+  border: 0 2px 0px 0 solid black; }
 
-}
-.modal-dialog{
-  display: block;
-}
-.item{
+.modal-dialog {
+  display: block; }
+
+.item {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
   padding: 0 40px;
-  margin-bottom: 30px;
-  
-}
-.item p{
+  margin-bottom: 30px; }
+
+.item p {
   text-align: center;
-  font-family: 'FuturaRegular', sans-serif;
-}
-.item .tachado{
+  font-family: 'FuturaRegular', sans-serif; }
+
+.item .tachado {
   text-decoration: line-through;
-  color: red;
+  color: #A81C1D;
   font-size: 16px;
-  display: inline-block;
-}
-.item .precio{
+  display: inline-block; }
+
+.item .precio {
   display: inline-block;
   color: black;
-  font-size: 20px;
-}
-.item .over{
+  font-size: 20px; }
+
+.item .over {
   color: rgba(0, 0, 0, 0.801);
-  font-size: 15px;
-}
-.item button{
-  background-color: rgb(0, 0, 0);
+  font-size: 15px; }
+
+.item button {
+  background-color: black;
   color: white;
   border-radius: 10px;
   border: none;
- 
   padding: 10px 20px;
   text-transform: uppercase;
-  font-family: 'FuturaBold', sans-serif;
-}
-.item button:hover{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  transition: .9s;
-}
+  font-family: 'FuturaBold', sans-serif; }
 
-.item .img-1{
+.item button:hover {
+  background-color: white;
+  color: black;
+  transition: .9s; }
+
+.item .img-1 {
   height: 250px;
   width: 250px;
   object-fit: cover;
-  filter: invert(100%);
-  
-}
-.img-2{
+  filter: invert(100%); }
+
+.img-2 {
+  height: 250px;
+  width: 250px;
+  object-fit: cover; }
+
+.img-3 {
   height: 250px;
   width: 250px;
   object-fit: cover;
-  
-}
-.img-3{
-  height: 250px;
-  width: 250px;
-  object-fit: cover;
-  filter: brightness(20%);
-}
+  filter: brightness(20%); }
+
 /* ------------------------------------------- */
 /* Texto de marca  */
-.container-lg{
-  display: flex;  
-  
+.container-lg {
+  display: flex;
   align-items: start;
   flex-direction: column;
   border-top: 1px solid black;
   padding-top: 20px;
-  max-width: 800px;
-}
-.container-lg .text{
+  max-width: 800px; }
+
+.container-lg .text {
   font-family: 'FuturaRegular', sans-serif;
   font-size: 20px;
   width: 100%;
   opacity: 0.7;
-  text-align: left;
-}
-.container-lg h3{
+  text-align: left; }
+
+.container-lg h3 {
   font-family: 'FuturaBold', sans-serif;
   font-size: 30px;
   text-align: left;
   margin: 0;
   padding: 0;
-  text-decoration: solid;
-  
-}
-.container-fluid.volver-inicio{
-  height: 150px;
-}
-.container-fluid a{
+  text-decoration: solid; }
+
+.container-fluid.volver-inicio {
+  height: 150px; }
+
+.container-fluid a {
   text-decoration: none;
   color: black;
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
-}
-.container-fluid a .flechita{
+  font-family: 'Roboto', sans-serif; }
+
+.container-fluid a .flechita {
   width: 50px;
-  height: 50px;
-  
-}
-.container-fluid a .flechita:hover{
+  height: 50px; }
+
+.container-fluid a .flechita:hover {
   transition: .5s;
-  transform: rotate(180deg);
+  transform: rotate(180deg); }
 
-}
-.accordion-body strong{
+.accordion-body strong {
   font-family: 'FuturaRegular', sans-serif;
-  
-  color: black;
+  color: black; }
 
-}
-.accordion-body p{
+.accordion-body p {
   font-family: 'Roboto', sans-serif;
-  font-size: 5px;
-}
+  font-size: 5px; }
 
-/* -----------------------------------------------------------------------------FOOTER---------------------- */
-.container-fluid .redes{
+.bg {
+  background-image: url(https://cdn.develop.gymshark.com/auth-img.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.col-12 {
+  height: 800px; }
+
+.texto-boton {
+  font-size: 40px; }
+
+.logo-log {
+  height: 50px; }
+
+.shops {
   display: flex;
-  justify-content: space-around;
-  border:  0 1px 0 0 solid black;
-}
-.redes{
-  padding-top: 30px;
-}
-.redes a i{
-  font-size: 60px;
-  
-}
-.redes .fa-brands.fa-square-facebook:hover{
-  color: rgb(118, 169, 228);
-  transition: .5s;
-}
-.redes .fa-brands.fa-square-instagram:hover{
-  color: rgb(236, 79, 40);
-  transition: .5s;
-}
-.redes .fa-brands.fa-square-x-twitter:hover{
-  color: rgb(140, 141, 141);
-  transition: .5s;
-}
-.container-fluid p{
-  font-family: 'FuturaRegular', sans-serif;
-  font-size: 30px;
+  justify-content: center; }
+
+.container {
+  width: auto;
+  height: auto;
+  margin: 5px;
+  padding: 0px; }
+
+.container .row .col-12.col-md-6.col-lg-4 a img {
+  width: 90%;
+  height: auto;
+  padding: 0px; }
+
+.col-12.col-md-6.col-lg-4 {
+  padding: 30px 5px;
+  height: 100%; }
+
+.col-12.col-md-6.col-lg-4 a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.col-12.col-md-6.col-lg-4 a img {
+  border-radius: 30px;
+  transition: .9s; }
+
+.col-12.col-md-6.col-lg-4 a:hover {
+  transition: .9s;
+  transform: scale(1.01); }
+
+.col-12.col-md-6.col-lg-4 h2 {
+  font-family: 'Roboto';
+  font-size: 20px;
   text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px; }
+
+/* ------------------------------------------------------------------ */
+/* Sobre nuestras Remeras--------------- */
+.sobre-remeras {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif; }
+
+/* 
+  ------------------------------------------------------------------ */
+/* Scrolling-Wrapper de articulos */
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap; }
+
+.scrolling-wrapper P {
+  font-family: 'Roboto',  monospace;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+  border: 0 2px 0px 0 solid black; }
+
+.modal-dialog {
+  display: block; }
+
+.item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 40px;
+  margin-bottom: 30px; }
+
+.item p {
+  text-align: center;
+  font-family: 'FuturaRegular', sans-serif; }
+
+.item .tachado {
+  text-decoration: line-through;
+  color: #A81C1D;
+  font-size: 16px;
+  display: inline-block; }
+
+.item .precio {
+  display: inline-block;
+  color: black;
+  font-size: 20px; }
+
+.item .over {
+  color: rgba(0, 0, 0, 0.801);
+  font-size: 15px; }
+
+.item button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: 'FuturaBold', sans-serif; }
+
+.item button:hover {
+  background-color: white;
+  color: black;
+  transition: .9s; }
+
+.item .img-1 {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  filter: invert(100%); }
+
+.img-2 {
+  height: 250px;
+  width: 250px;
+  object-fit: cover; }
+
+.img-3 {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  filter: brightness(20%); }
+
+/* ------------------------------------------- */
+/* Texto de marca  */
+.container-lg {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  border-top: 1px solid black;
+  padding-top: 20px;
+  max-width: 800px; }
+
+.container-lg .text {
+  font-family: 'FuturaRegular', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  opacity: 0.7;
+  text-align: left; }
+
+.container-lg h3 {
+  font-family: 'FuturaBold', sans-serif;
+  font-size: 30px;
+  text-align: left;
   margin: 0;
-  padding-top: 40px;
-  color: gray;
-}
-/* ---------------------------------------------------------------
-MERCADO PAGO PAYPAL TARJETAS ETC */
-.container-fluid .formas-pago{
+  padding: 0;
+  text-decoration: solid; }
+
+.container-fluid.volver-inicio {
+  height: 150px; }
+
+.container-fluid a {
+  text-decoration: none;
+  color: black;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 40px;
-}
-.formas-pago img{
-  width: 200px;
-  opacity: 0.5;
-  
-}
-.info-extra{
-  font-size: 20px;
-  padding: 20px 0 ;
-  text-align: center;
-  
-}
-footer .container-fluid.footer .derechos{
-  text-align: center;
-  font-size: 15px;
-  color: black;
-  font-family: 'Courier New', Courier, monospace;
-}
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif; }
 
-/* -----------------------------CONTACTO--------------------------------- */
- .contact{
-  background-image: url(../images-videos/Fotos/Proceso\ de\ creación.jpg);
+.container-fluid a .flechita {
+  width: 50px;
+  height: 50px; }
+
+.container-fluid a .flechita:hover {
+  transition: .5s;
+  transform: rotate(180deg); }
+
+.accordion-body strong {
+  font-family: 'FuturaRegular', sans-serif;
+  color: black; }
+
+.accordion-body p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 5px; }
+
+.contact {
+  background-image: url("/images-videos/Fotos/Proceso de creación.jpg");
   height: 900px;
   background-size: cover;
-  font-family: 'Roboto',sans-serif;
-} 
-.input-group{
-  padding: 20px 0 ;
-}
-.container-sm.contacto label{
-  color: white;
-}
-.offcanvas-header{
+  font-family: 'Roboto',sans-serif; }
+
+.input-group {
+  padding: 20px 0; }
+
+.container-sm.contacto label {
+  color: white; }
+
+.offcanvas-header {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
-.offcanvas-header .logo-donde-encontrarnos{
+.offcanvas-header .logo-donde-encontrarnos {
   object-fit: cover;
-  width: 200px;
-  
-}
+  width: 200px; }
 
+.offcanvas-body iframe {
+  padding-top: 20px; }
 
-.offcanvas-body iframe{
-  padding-top: 20px;
-  
-}
-
-.offcanvas-body p{
-  color: rgb(0, 0, 0);
+.offcanvas-body p {
+  color: black;
   font-family: 'Roboto',sans-serif;
-  font-size: 20px;
-  
-}
-.container-fluid.contenido{
+  font-size: 20px; }
+
+.container-fluid.contenido {
   padding-top: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.logo-kilos-crew{
+  align-items: center; }
+
+.logo-kilos-crew {
   padding-bottom: 100px;
   width: 400px;
-  filter: invert(100%);
-
-}
-/* --------------------------LOGIN------------------------------- */
-
-.bg{
-  background-image: url(https://cdn.develop.gymshark.com/auth-img.jpg);
-  background-position: center center;
-  background-size: cover;
-  
-}
-.col-12{
-  height: 800px;
-}
-
-.texto-boton{
-  font-size: 40px;
-}
-.logo-log{
-  height: 50px;
-}
-
-
-
-
-@media(min-width:768px){
-  .carrousel-mobile{
-    display: none;
-  }
-  .carousel-web{
-    display: block;
-  }
-  .bg{
-    display: block;
-  }
-}
-
-
-@media(min-width: 1024px){
-  /* Carrusel */
-  .carrousel-mobile{
-    display: none;
-  }
-  .carousel-web{
-    display: block;
-  }
-}
+  filter: invert(100%); }
