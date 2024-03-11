@@ -13,7 +13,10 @@
 }
 .navbar-brand.login-icon img{
     height: 30px;
-    
+    transition: all 0.3s ease-in-out;
+}
+.navbar-brand.login-icon img:hover{
+    animation: girar 1s linear infinite;
 }
 /* Color de etiquetas de nav  */
 .nav-link{

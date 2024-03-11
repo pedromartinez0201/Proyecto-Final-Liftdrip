@@ -1,9 +1,16 @@
 .contact{
-    background-image: url("/images-videos/Fotos/Proceso\ de\ creación.jpg");
+    background-image: url("/images-videos/bg-contacto.jpg");
+    background-size: cover;
+    background-position: center center;
     height: 900px;
     background-size: cover;
     font-family: 'Roboto',sans-serif;
   } 
+  .contenido .logo-kilos-crew{
+    filter: invert(0%);
+    
+    
+  }
   .input-group{
     padding: 20px 0 ;
   }
@@ -45,4 +52,15 @@
     width: 400px;
     filter: invert(100%);
   
+  }
+  .envio-gratis-contacto{
+    font-family: 'FuturaRegular',sans-serif;
+    padding: 0;
+    h1{
+      font-size: 20px;
+      text-align: center;
+      margin: 0;
+      
+    }
+
   }

@@ -71,6 +71,12 @@
   margin: 0;
   padding: 0; }
 
+@keyframes girar {
+  from {
+    transform: rotateX(0deg); }
+  to {
+    transform: rotateX(360deg); } }
+
 .container-fluid .logo-nav {
   height: 80px;
   width: 100%;
@@ -84,7 +90,11 @@
   padding: 0 10px; }
 
 .navbar-brand.login-icon img {
-  height: 30px; }
+  height: 30px;
+  transition: all 0.3s ease-in-out; }
+
+.navbar-brand.login-icon img:hover {
+  animation: girar 1s linear infinite; }
 
 /* Color de etiquetas de nav  */
 .nav-link {
@@ -269,12 +279,15 @@ footer .container-fluid.footer .derechos {
   text-decoration: line-through;
   color: #A81C1D;
   font-size: 16px;
-  display: inline-block; }
+  display: inline-block;
+  font-family: 'FuturaRegular';
+  margin: 0; }
 
 .item .precio {
   display: inline-block;
   color: black;
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 0; }
 
 .item .over {
   color: rgba(0, 0, 0, 0.801);
@@ -285,9 +298,9 @@ footer .container-fluid.footer .derechos {
   color: white;
   border-radius: 10px;
   border: none;
-  padding: 10px 20px;
   text-transform: uppercase;
-  font-family: 'FuturaBold', sans-serif; }
+  font-family: 'FuturaBold', sans-serif;
+  padding: 10px; }
 
 .item button:hover {
   background-color: white;
@@ -295,21 +308,19 @@ footer .container-fluid.footer .derechos {
   transition: .9s; }
 
 .item .img-1 {
-  height: 250px;
+  height: 300px;
   width: 250px;
-  object-fit: cover;
-  filter: invert(100%); }
+  object-fit: cover; }
 
 .img-2 {
-  height: 250px;
+  height: 300px;
   width: 250px;
   object-fit: cover; }
 
 .img-3 {
-  height: 250px;
+  height: 300px;
   width: 250px;
-  object-fit: cover;
-  filter: brightness(20%); }
+  object-fit: cover; }
 
 /* ------------------------------------------- */
 /* Texto de marca  */
@@ -462,12 +473,15 @@ footer .container-fluid.footer .derechos {
   text-decoration: line-through;
   color: #A81C1D;
   font-size: 16px;
-  display: inline-block; }
+  display: inline-block;
+  font-family: 'FuturaRegular';
+  margin: 0; }
 
 .item .precio {
   display: inline-block;
   color: black;
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 0; }
 
 .item .over {
   color: rgba(0, 0, 0, 0.801);
@@ -478,9 +492,9 @@ footer .container-fluid.footer .derechos {
   color: white;
   border-radius: 10px;
   border: none;
-  padding: 10px 20px;
   text-transform: uppercase;
-  font-family: 'FuturaBold', sans-serif; }
+  font-family: 'FuturaBold', sans-serif;
+  padding: 10px; }
 
 .item button:hover {
   background-color: white;
@@ -488,21 +502,19 @@ footer .container-fluid.footer .derechos {
   transition: .9s; }
 
 .item .img-1 {
-  height: 250px;
+  height: 300px;
   width: 250px;
-  object-fit: cover;
-  filter: invert(100%); }
+  object-fit: cover; }
 
 .img-2 {
-  height: 250px;
+  height: 300px;
   width: 250px;
   object-fit: cover; }
 
 .img-3 {
-  height: 250px;
+  height: 300px;
   width: 250px;
-  object-fit: cover;
-  filter: brightness(20%); }
+  object-fit: cover; }
 
 /* ------------------------------------------- */
 /* Texto de marca  */
@@ -557,10 +569,15 @@ footer .container-fluid.footer .derechos {
   font-size: 5px; }
 
 .contact {
-  background-image: url("/images-videos/Fotos/Proceso de creación.jpg");
+  background-image: url("/images-videos/bg-contacto.jpg");
+  background-size: cover;
+  background-position: center center;
   height: 900px;
   background-size: cover;
   font-family: 'Roboto',sans-serif; }
+
+.contenido .logo-kilos-crew {
+  filter: invert(0%); }
 
 .input-group {
   padding: 20px 0; }
@@ -595,6 +612,14 @@ footer .container-fluid.footer .derechos {
   padding-bottom: 100px;
   width: 400px;
   filter: invert(100%); }
+
+.envio-gratis-contacto {
+  font-family: 'FuturaRegular',sans-serif;
+  padding: 0; }
+  .envio-gratis-contacto h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0; }
 
 .shop-men-product-mobile {
   padding: 0;
@@ -635,6 +660,9 @@ footer .container-fluid.footer .derechos {
     align-items: center;
     flex-direction: column;
     margin-bottom: 40px; }
+    .men-articles article .over {
+      font-family: 'FuturaRegular',sans-serif;
+      text-transform: uppercase; }
     .men-articles article .tachado {
       text-decoration: line-through;
       color: #A81C1D;
@@ -692,6 +720,9 @@ footer .container-fluid.footer .derechos {
     align-items: center;
     flex-direction: column;
     margin-bottom: 40px; }
+    .women-articles article .over {
+      font-family: 'FuturaRegular',sans-serif;
+      text-transform: uppercase; }
     .women-articles article .tachado {
       text-decoration: line-through;
       color: #A81C1D;
@@ -747,6 +778,13 @@ footer .container-fluid.footer .derechos {
     align-items: center;
     flex-direction: column;
     margin-bottom: 40px; }
+    .accesories-articles article .over {
+      font-family: 'FuturaRegular',sans-serif;
+      text-transform: uppercase;
+      color: black;
+      font-size: 15px;
+      margin: 0;
+      padding: 0; }
     .accesories-articles article .tachado {
       text-decoration: line-through;
       color: #A81C1D;
@@ -764,6 +802,35 @@ footer .container-fluid.footer .derechos {
       text-transform: uppercase;
       font-family: 'FuturaBold', sans-serif;
       padding: 10px; }
+
+.metodos-de-pago {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .metodos-de-pago h1 {
+    font-family: 'FuturaBold',sans-serif;
+    font-size: 30px;
+    text-decoration: solid;
+    text-transform: uppercase; }
+  .metodos-de-pago p {
+    font-family: 'FuturaRegular',sans-serif;
+    font-size: 20px;
+    opacity: 0.7; }
+  .metodos-de-pago h2 {
+    font-family: 'FuturaBold',sans-serif;
+    font-size: 30px;
+    text-decoration: solid;
+    text-transform: uppercase; }
+  .metodos-de-pago .lista-desordenada {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .metodos-de-pago .lista-desordenada ul {
+      font-size: 20px; }
+      .metodos-de-pago .lista-desordenada ul li {
+        font-family: 'FuturaRegular',sans-serif; }
 
 @media (min-width: 768px) {
   .carrousel-mobile {

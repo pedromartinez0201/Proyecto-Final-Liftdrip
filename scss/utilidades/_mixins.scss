@@ -44,3 +44,16 @@
     overflow-y: hidden;
     white-space: nowrap;
 }
+
+@mixin titulos{
+    font-family: 'FuturaBold',sans-serif;
+    font-size: 30px;
+    text-decoration: solid;
+    text-transform: uppercase;
+
+}
+@mixin parrafos{
+    font-family: 'FuturaRegular',sans-serif;
+    font-size: 20px;
+    opacity: 0.7;
+}

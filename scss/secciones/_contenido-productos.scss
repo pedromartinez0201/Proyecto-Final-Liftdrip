@@ -28,6 +28,10 @@
 .men-articles{
     @include scrolling-wraper;
     article{
+        .over{
+            font-family: 'FuturaRegular',sans-serif;
+            text-transform: uppercase;
+        }
         @include size-article;
         .tachado{
             @include tachado;
@@ -68,6 +72,10 @@
 .women-articles{
     @include scrolling-wraper;
     article{
+        .over{
+            font-family: 'FuturaRegular',sans-serif;
+            text-transform: uppercase;
+        }
         @include size-article;
         .tachado{
             @include tachado;
@@ -101,6 +109,15 @@
     @include scrolling-wraper;
     height: 700px;
     article{
+        .over{
+            font-family: 'FuturaRegular',sans-serif;
+            text-transform: uppercase;
+            color: black;
+            font-size: 15px;
+            margin: 0;
+            padding: 0;
+            
+        }
         @include size-article;
         .tachado{
             @include tachado;

@@ -3,7 +3,7 @@
 @import "./utilidades/reset";
 @import "./utilidades/variables";
 @import "./utilidades/mixins";
-
+@import "./utilidades/keyframes";
 //  Secciones
 @import "./secciones/nav";
 @import "./secciones/footer";
@@ -12,6 +12,7 @@
 @import "./secciones/contenido-index";
 @import "./secciones/contenido-contacto";
 @import "./secciones/contenido-productos";
+@import "./secciones/contenido-metodosdepago";
 
 // MediaQueries
 @import "./utilidades/media-queries";

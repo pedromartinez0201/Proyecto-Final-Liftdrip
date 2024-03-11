@@ -4,12 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LIFTDRIP</title>
+    <title>Contacto-LIFTDRIP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- favicon -->
     <link rel="shortcut icon" href="../Favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/4f4af93d58.js" crossorigin="anonymous"></script>
+    <!-- Meta tag description  -->
+    <meta name="description"
+        content="Pagina de contacto, para comunicarte con nosotros por trabajo o ya sea algun comentario">
 </head>
 
 <body>
@@ -18,7 +22,8 @@
         <nav class="navbar navbar-expand-lg bg-white shadow-sm p-1 mb-4 bg-body-tertiary rounded ">
 
             <div class="container-fluid">
-                <a href="../pages/login.html" class="navbar-brand login-icon"><img src="../images-videos/Nav/003-cuenta.png" alt=""></a>
+                <a href="../pages/login.html" class="navbar-brand login-icon"><img
+                        src="../images-videos/Nav/003-cuenta.png" alt=""></a>
                 <a class="navbar-brand" href="../index.html"><img class="logo-nav"
                         src="../images-videos/Logos/Handwritting PNG.png" alt="logo"></a>
 
@@ -35,7 +40,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="./productos.html">Productos</a>
                         </li>
-                       
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="./metodos-pago.html">Metodos de Pago</a>
                         </li>
@@ -54,52 +59,66 @@
             </div>
         </nav>
     </header>
+    <!-- Publicidad de envios -->
+    <div class="container-fluid envio-gratis-contacto shadow-sm p-3 bg-body-tertiary rounded">
+        <h1>Envio Gratis a partir de $5.000</h1>
+    </div>
     <main class="contact">
         <!-- Formulario de consulta  -->
-            <div class="container-fluid contenido">
-                <!-- Logo kilos crew -->
-                <img class="logo-kilos-crew" src="../images-videos/Logos/Kilos crew con relleno.png" alt="">
-                <!-- Formulario -->
-                <div class="container-sm contacto">
-                    <div class="input-group">
-                        <span class="input-group-text">Nombre y Apellido</span>
-                        <input type="text" aria-label="First name" class="form-control">
-                        <input type="text" aria-label="Last name" class="form-control">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje (Opcional)</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Escribe tu duda...</textarea>
-                    </div>
-                    <button type="button" class="btn btn-light">Enviar</button>
-                
+        <div class="container-fluid contenido">
+            <!-- Logo kilos crew -->
+            <img class="logo-kilos-crew img-fluid" src="../images-videos/Logos/Futura logo png.png"
+                alt="logo-liftdrip-futura">
+            <!-- Formulario -->
+            <div class="container-sm contacto">
+                <div class="input-group">
+                    <span class="input-group-text">Nombre y Apellido</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
                 </div>
-                <!-- Mapa para encontrar el local -->
-                <div class="container-sm maps">
-                    <button class="btn btn-light mt-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
-                        aria-controls="staticBackdrop">
-                        ¿Donde encontrarnos?
-                    </button>
-                
-                    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
-                        aria-labelledby="staticBackdropLabel">
-                        <div class="offcanvas-header hadow-sm p-3  bg-body-tertiary rounded">
-                            <img class="logo-donde-encontrarnos" src="../images-videos/Logos/Liftdrip athletic negro png.png" alt="">
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body w-100 ">
-                            <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded" >
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13586.095772788301!2d-60.7092736!3d-31.646882399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1708969273406!5m2!1ses-419!2sar" width="360" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
-                                <p class="descripcion-donde-encontrarnos">Actualmente contamos con local fisico en ciudad de Santa fe , en la direccion ubicada en el mapa . Horarios de Atencion 10:00 AM a 22:30 PM </p>
-                            </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje (Opcional)</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                        rows="3">Escribe tu duda...</textarea>
+                </div>
+                <button type="button" class="btn btn-light">Enviar</button>
+
+            </div>
+            <!-- Mapa para encontrar el local -->
+            <div class="container-sm maps">
+                <button class="btn btn-light mt-4" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                    ¿Donde encontrarnos?
+                </button>
+
+                <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                    aria-labelledby="staticBackdropLabel">
+                    <div class="offcanvas-header hadow-sm p-3  bg-body-tertiary rounded">
+                        <img class="logo-donde-encontrarnos"
+                            src="../images-videos/Logos/Liftdrip athletic negro png.png" alt="logo-liftrip-athletic">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body w-100 ">
+                        <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                            <!-- Iframe de google maps -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13586.095772788301!2d-60.7092736!3d-31.646882399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1708969273406!5m2!1ses-419!2sar"
+                                width="360" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <p class="descripcion-donde-encontrarnos">Actualmente contamos con local fisico en ciudad de
+                                Santa fe , en la direccion ubicada en el mapa . Horarios de Atencion 10:00 AM a 22:30 PM
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-           
+        </div>
+
     </main>
 
     <footer>
