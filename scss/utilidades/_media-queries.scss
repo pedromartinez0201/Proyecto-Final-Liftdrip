@@ -1,22 +1,135 @@
-@media(min-width:768px){
-    .carrousel-mobile{
-      display: none;
+@media(min-width:768px) {
+  .carrousel-mobile {
+    display: none;
+  }
+
+  .carousel-web {
+    display: block;
+  }
+
+  .bg {
+    display: block;
+  }
+
+  .shop-men-product-mobile {
+    display: none;
+  }
+  .shop-men-product-web {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-image: url('/images-videos/articles/shop-men-2-article.webp');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+
+    
+  }
+
+  .shop-women-product-web {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-image: url('/images-videos/articles/mujer-2-ropa.webp');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+  }
+
+  .shop-women-product-mobile {
+    display: none;
+  }
+  .shop-accesories-product-mobile{
+    display: none;
+  }
+}
+
+
+@media(min-width: 1024px) {
+
+  /* Carrusel */
+  .carrousel-mobile {
+    display: none;
+  }
+
+  .carousel-web {
+    display: block;
+  }
+
+  .shop-men-product-mobile {
+    display: none;
+  }
+
+  .shop-men-product-web {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-image: url('/images-videos/articles/shop-men-2-article.webp');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    filter: saturate(60%);
+    margin: 0;
+    justify-content: center;
+
+    h2 {
+      text-align: center;
+      color: white;
+      font-family: 'FuturaBold';
+      font-size: 30px;
+      text-decoration: underline;
     }
-    .carousel-web{
-      display: block;
-    }
-    .bg{
-      display: block;
+
+    p {
+      text-align: center;
+
+      color: white;
     }
   }
-  
-  
-  @media(min-width: 1024px){
-    /* Carrusel */
-    .carrousel-mobile{
-      display: none;
+
+  h2 {
+    text-align: center;
+    font-family: 'FuturaRegular';
+  }
+  .shop-women-product-web {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-image: url('/images-videos/articles/mujer-2-ropa.webp');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    filter: saturate(60%);
+    margin: 0;
+    justify-content: center;
+
+    h2 {
+      text-align: center;
+      color: white;
+      font-family: 'FuturaBold';
+      font-size: 30px;
+      text-decoration: underline;
     }
-    .carousel-web{
-      display: block;
+
+    p {
+      text-align: center;
+
+      color: white;
     }
   }
+  .shop-women-product-mobile {
+    display: none;
+  }
+  .shop-accesories-product-mobile{
+    display: none;
+  }
+}

@@ -1,0 +1,46 @@
+@mixin size-article{
+    width: 250px;
+    height: 420px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-bottom: 40px;
+
+}
+@mixin botones{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'FuturaBold', sans-serif;
+    padding: 10px;
+}
+@mixin tachado{
+    text-decoration: line-through;
+    color: $color-precio-anterior;
+    font-size: 16px;
+    display: inline-block;
+    font-family: 'FuturaRegular';
+}
+@mixin categorias{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    h3{
+        font-family: 'FuturaBold';
+        text-transform: uppercase;
+    }
+    h4{
+        opacity: .8;
+        font-family: 'FuturaRegular';
+        padding-left: 10px;
+    }
+}
+@mixin scrolling-wraper{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}

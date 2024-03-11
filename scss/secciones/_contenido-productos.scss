@@ -1,0 +1,116 @@
+
+// Nueva Coleccion Seccion Hombre Mobile
+.shop-men-product-mobile{
+    padding: 0;
+    margin: 0;
+    background-image: url('/images-videos/articles/shop-men-2-article-mobile.webp'), ;
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+   
+    
+}
+.shop-men-product-web{
+    display: none;
+}
+
+.seccion-hombre{
+    @include categorias;
+}
+
+.men-articles{
+    @include scrolling-wraper;
+    article{
+        @include size-article;
+        .tachado{
+            @include tachado;
+        }
+        .precio{
+            font-family: 'FuturaRegular';
+            font-size: 20px;
+        }
+        button{
+            @include botones;
+        }
+    }
+    
+}
+.shop-women-product-mobile{
+    padding: 0;
+    margin: 0;
+    background-image: url('/images-videos/articles/women-article-mobile.webp'), ;
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+}
+.shop-women-product-web{
+    display: none;
+}
+.seccion-mujer{
+    @include categorias;
+}
+.women-articles{
+    @include scrolling-wraper;
+    article{
+        @include size-article;
+        .tachado{
+            @include tachado;
+        }
+        .precio{
+            font-family: 'FuturaRegular';
+            font-size: 20px;
+        }
+        button{
+            @include botones;
+        }
+    }
+}
+
+.seccion-accesorios{
+    @include categorias;
+}
+.shop-accesories-product-mobile{
+    padding: 0;
+    margin: 0;
+    background-image: url('/images-videos/articles/shop-accesories-articles.webp'), ;
+    background-size: cover;
+    height: 500px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accesories-articles{
+    @include scrolling-wraper;
+    height: 700px;
+    article{
+        @include size-article;
+        .tachado{
+            @include tachado;
+        }
+        .precio{
+            font-family: 'FuturaRegular';
+            font-size: 20px;
+        }
+        button{
+            @include botones;
+        }
+    }
+}

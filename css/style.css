@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'FuturaRegular';
-  src: url("../Fonts/FuturaPTMedium.otf"); }
+  src: url("/Fonts/FuturaPTMedium.otf"); }
 
 @font-face {
   font-family: 'FuturaBold';
-  src: url("../Fonts/FuturaPTBold.otf"); }
+  src: url("/Fonts/FuturaPTBold.otf"); }
 
 .roboto-thin {
   font-family: "Roboto", sans-serif;
@@ -70,21 +70,6 @@
 * {
   margin: 0;
   padding: 0; }
-
-@media (min-width: 768px) {
-  .carrousel-mobile {
-    display: none; }
-  .carousel-web {
-    display: block; }
-  .bg {
-    display: block; } }
-
-@media (min-width: 1024px) {
-  /* Carrusel */
-  .carrousel-mobile {
-    display: none; }
-  .carousel-web {
-    display: block; } }
 
 .container-fluid .logo-nav {
   height: 80px;
@@ -610,3 +595,264 @@ footer .container-fluid.footer .derechos {
   padding-bottom: 100px;
   width: 400px;
   filter: invert(100%); }
+
+.shop-men-product-mobile {
+  padding: 0;
+  margin: 0;
+  background-image: url("/images-videos/articles/shop-men-2-article-mobile.webp");
+  background-size: cover;
+  height: 500px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.shop-men-product-web {
+  display: none; }
+
+.seccion-hombre {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px; }
+  .seccion-hombre h3 {
+    font-family: 'FuturaBold';
+    text-transform: uppercase; }
+  .seccion-hombre h4 {
+    opacity: .8;
+    font-family: 'FuturaRegular';
+    padding-left: 10px; }
+
+.men-articles {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap; }
+  .men-articles article {
+    width: 250px;
+    height: 420px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px; }
+    .men-articles article .tachado {
+      text-decoration: line-through;
+      color: #A81C1D;
+      font-size: 16px;
+      display: inline-block;
+      font-family: 'FuturaRegular'; }
+    .men-articles article .precio {
+      font-family: 'FuturaRegular';
+      font-size: 20px; }
+    .men-articles article button {
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      border: none;
+      text-transform: uppercase;
+      font-family: 'FuturaBold', sans-serif;
+      padding: 10px; }
+
+.shop-women-product-mobile {
+  padding: 0;
+  margin: 0;
+  background-image: url("/images-videos/articles/women-article-mobile.webp");
+  background-size: cover;
+  height: 500px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.shop-women-product-web {
+  display: none; }
+
+.seccion-mujer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px; }
+  .seccion-mujer h3 {
+    font-family: 'FuturaBold';
+    text-transform: uppercase; }
+  .seccion-mujer h4 {
+    opacity: .8;
+    font-family: 'FuturaRegular';
+    padding-left: 10px; }
+
+.women-articles {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap; }
+  .women-articles article {
+    width: 250px;
+    height: 420px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px; }
+    .women-articles article .tachado {
+      text-decoration: line-through;
+      color: #A81C1D;
+      font-size: 16px;
+      display: inline-block;
+      font-family: 'FuturaRegular'; }
+    .women-articles article .precio {
+      font-family: 'FuturaRegular';
+      font-size: 20px; }
+    .women-articles article button {
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      border: none;
+      text-transform: uppercase;
+      font-family: 'FuturaBold', sans-serif;
+      padding: 10px; }
+
+.seccion-accesorios {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px; }
+  .seccion-accesorios h3 {
+    font-family: 'FuturaBold';
+    text-transform: uppercase; }
+  .seccion-accesorios h4 {
+    opacity: .8;
+    font-family: 'FuturaRegular';
+    padding-left: 10px; }
+
+.shop-accesories-product-mobile {
+  padding: 0;
+  margin: 0;
+  background-image: url("/images-videos/articles/shop-accesories-articles.webp");
+  background-size: cover;
+  height: 500px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.accesories-articles {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 700px; }
+  .accesories-articles article {
+    width: 250px;
+    height: 420px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px; }
+    .accesories-articles article .tachado {
+      text-decoration: line-through;
+      color: #A81C1D;
+      font-size: 16px;
+      display: inline-block;
+      font-family: 'FuturaRegular'; }
+    .accesories-articles article .precio {
+      font-family: 'FuturaRegular';
+      font-size: 20px; }
+    .accesories-articles article button {
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      border: none;
+      text-transform: uppercase;
+      font-family: 'FuturaBold', sans-serif;
+      padding: 10px; }
+
+@media (min-width: 768px) {
+  .carrousel-mobile {
+    display: none; }
+  .carousel-web {
+    display: block; }
+  .bg {
+    display: block; }
+  .shop-men-product-mobile {
+    display: none; }
+  .shop-men-product-web {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images-videos/articles/shop-men-2-article.webp");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .shop-women-product-web {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images-videos/articles/mujer-2-ropa.webp");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .shop-women-product-mobile {
+    display: none; }
+  .shop-accesories-product-mobile {
+    display: none; } }
+
+@media (min-width: 1024px) {
+  /* Carrusel */
+  .carrousel-mobile {
+    display: none; }
+  .carousel-web {
+    display: block; }
+  .shop-men-product-mobile {
+    display: none; }
+  .shop-men-product-web {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images-videos/articles/shop-men-2-article.webp");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    filter: saturate(60%);
+    margin: 0;
+    justify-content: center; }
+    .shop-men-product-web h2 {
+      text-align: center;
+      color: white;
+      font-family: 'FuturaBold';
+      font-size: 30px;
+      text-decoration: underline; }
+    .shop-men-product-web p {
+      text-align: center;
+      color: white; }
+  h2 {
+    text-align: center;
+    font-family: 'FuturaRegular'; }
+  .shop-women-product-web {
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images-videos/articles/mujer-2-ropa.webp");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    filter: saturate(60%);
+    margin: 0;
+    justify-content: center; }
+    .shop-women-product-web h2 {
+      text-align: center;
+      color: white;
+      font-family: 'FuturaBold';
+      font-size: 30px;
+      text-decoration: underline; }
+    .shop-women-product-web p {
+      text-align: center;
+      color: white; }
+  .shop-women-product-mobile {
+    display: none; }
+  .shop-accesories-product-mobile {
+    display: none; } }
