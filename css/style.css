@@ -569,7 +569,7 @@ footer .container-fluid.footer .derechos {
   font-size: 5px; }
 
 .contact {
-  background-image: url("/images-videos/bg-contacto.jpg");
+  background-image: url("../images-videos/bg-contacto.jpg");
   background-size: cover;
   background-position: center center;
   height: 900px;
@@ -624,7 +624,7 @@ footer .container-fluid.footer .derechos {
 .shop-men-product-mobile {
   padding: 0;
   margin: 0;
-  background-image: url("/images-videos/articles/shop-men-2-article-mobile.webp");
+  background-image: url("../images-videos/articles/shop-men-2-article-mobile.webp");
   background-size: cover;
   height: 500px;
   object-fit: cover;
@@ -684,7 +684,7 @@ footer .container-fluid.footer .derechos {
 .shop-women-product-mobile {
   padding: 0;
   margin: 0;
-  background-image: url("/images-videos/articles/women-article-mobile.webp");
+  background-image: url("../images-videos/articles/women-article-mobile.webp");
   background-size: cover;
   height: 500px;
   object-fit: cover;
@@ -756,7 +756,7 @@ footer .container-fluid.footer .derechos {
 .shop-accesories-product-mobile {
   padding: 0;
   margin: 0;
-  background-image: url("/images-videos/articles/shop-accesories-articles.webp");
+  background-image: url("../images-videos/articles/shop-accesories-articles.webp");
   background-size: cover;
   height: 500px;
   object-fit: cover;
@@ -845,7 +845,7 @@ footer .container-fluid.footer .derechos {
     display: block;
     padding: 0;
     margin: 0;
-    background-image: url("/images-videos/articles/shop-men-2-article.webp");
+    background-image: url("../images-videos/articles/shop-men-2-article.webp");
     background-size: cover;
     height: 300px;
     display: flex;
@@ -855,7 +855,7 @@ footer .container-fluid.footer .derechos {
     display: block;
     padding: 0;
     margin: 0;
-    background-image: url("/images-videos/articles/mujer-2-ropa.webp");
+    background-image: url("../images-videos/articles/mujer-2-ropa.webp");
     background-size: cover;
     height: 300px;
     display: flex;
@@ -878,7 +878,7 @@ footer .container-fluid.footer .derechos {
     display: block;
     padding: 0;
     margin: 0;
-    background-image: url("/images-videos/articles/shop-men-2-article.webp");
+    background-image: url("../images-videos/articles/shop-men-2-article.webp");
     background-size: cover;
     height: 300px;
     display: flex;
@@ -902,7 +902,7 @@ footer .container-fluid.footer .derechos {
     display: block;
     padding: 0;
     margin: 0;
-    background-image: url("/images-videos/articles/mujer-2-ropa.webp");
+    background-image: url("../images-videos/articles/mujer-2-ropa.webp");
     background-size: cover;
     height: 300px;
     display: flex;
