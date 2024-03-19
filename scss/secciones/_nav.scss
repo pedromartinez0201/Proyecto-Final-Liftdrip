@@ -19,9 +19,9 @@
     animation: girar 1s linear infinite;
 }
 /* Color de etiquetas de nav  */
-.nav-link{
+.nav-link.active{
     color: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'FuturaBold', sans-serif;
     font-size: 15px;
     padding: 0;
 }
